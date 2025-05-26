@@ -52,7 +52,7 @@ This mod adds 15 Common, 10 Uncommon and 5 Rare Jokers, all (hopefully) balanced
 - Do Not Disturb! - Earn $3 for every scored debuffed card.
 - Joker Gel (Uncommon) - Gains x0.1 Mult for every hand played that does not beat the current blind. If blind is beaten in a single hand, reset.
 
-  ![Row6](https://github.com/user-attachments/assets/fa2179f8-5cd7-4270-aeb9-621622b5917a)
+![Row6](https://github.com/user-attachments/assets/78901747-3f7a-4911-9b9e-7622f831a83e)
 
 - Old Western (Common) - Wild Cards give +4 Mult and +25 Chips.
 - AI-Generated Joner (Common) - Copies the effect of a random Joker in your possession. 1 in 5 chance to destroy itself at the end of round.

@@ -1,0 +1,36 @@
+[manifest]
+version = "1.0.0"
+priority = 0
+
+
+    # Apply modifier to pack choice for tea leaves
+
+[[patches]]
+[patches.pattern]
+target = "card.lua"
+pattern = "G.GAME.pack_choices = self.ability.choose or self.config.center.config.choose or 1"
+position = "after"
+payload = '''
+local cards = SMODS.find_card('j_emerald_tea_leaves') -- local variable name can be changed
+if self.config.center.kind == 'Arcana' and next(cards) then
+    G.GAME.pack_choices = math.min(G.GAME.pack_choices + #cards, self.config.center.config.extra)
+end
+'''
+match_indent = true
+times = 1
+
+
+    # Define first collection instance of lighthouse as high card
+
+[[patches]]
+[patches.pattern]
+target = "card.lua"
+pattern = "G.GAME.pack_choices = self.ability.choose or self.config.center.config.choose or 1"
+position = "after"
+payload = '''
+G.GAME.current_round.light_house_poker_hand = 'High Card'
+'''
+match_indent = true
+times = 1
+
+

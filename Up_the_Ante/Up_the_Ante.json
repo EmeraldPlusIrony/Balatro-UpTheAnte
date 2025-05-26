@@ -1,0 +1,16 @@
+{
+	"id": "Up_the_Ante",
+	"name": "Up the Ante!",
+	"display_name": "Up the Ante!",
+	"author": ["EmeraldPlusIrony", "thesnaz"],
+	"description": "insert desc here",
+	"prefix": "emerald",
+	"main_file": "Up_the_Ante.lua",
+	"priority": 0,
+	"badge_colour": "005C46",
+	"badge_text_colour": "FFFFFF",
+	"version": "1.0.0",
+	"dependencies": [
+		"Steamodded (>=1.0.0~BETA-0312b)"
+	]
+}

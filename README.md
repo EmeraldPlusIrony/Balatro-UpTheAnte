@@ -60,3 +60,8 @@ This mod adds 15 Common, 10 Uncommon and 5 Rare Jokers, all (hopefully) balanced
 - Neapolitan (Uncommon) - x3 Mult if hand contains exactly 3 suits.
 - Bad Photocopy (Common) - 1 in 4 chance to copy the effect of the Joker to the right.
 
+# Requirements
+
+Steamodded - https://github.com/Steamodded/smods
+
+Lovely Injector - https://github.com/ethangreen-dev/lovely-injector

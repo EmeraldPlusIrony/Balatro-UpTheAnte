@@ -10,7 +10,7 @@ Mod Discord (I'd love to hear feedback!! :>) - https://discord.gg/QHjXT2EfFV
 
 # Content!!
 
-This mod adds 14 Common, 11 Uncommon and 5 Rare Jokers, all (hopefully) balanced to fit with the vanilla Balatro experience, while still providing new and interesting ways to play the game!
+This mod adds 15 Common, 10 Uncommon and 5 Rare Jokers, all (hopefully) balanced to fit with the vanilla Balatro experience, while still providing new and interesting ways to play the game!
 
 ![Row1](https://github.com/user-attachments/assets/3163687e-bcec-425a-8908-eb9844206987)
 
@@ -35,3 +35,28 @@ This mod adds 14 Common, 11 Uncommon and 5 Rare Jokers, all (hopefully) balanced
 - Lone Joker (Common) - Gain +2 Mult per empty Joker slot at beginning of each round.
 - Peel-off Joker (Common) - Gain +$1 for every Enhanced card played. Removes card enhancement.
 - Lighthouse (Uncommon) - Gains +0.2x Mult when (Random Poker Hand) is played. Hand changes every round.
+
+![Row4](https://github.com/user-attachments/assets/96875951-a4e3-43d6-9334-0b215f09d063)
+
+- Mint Condition (Uncommon) - +3 Mult for every unenhanced card played.
+- Recursive (Rare) - Retrigger all scored cards if all played cards are of a single rank.
+- Tea Leaves (Uncommon) - Select 1 extra card in Tarot Packs.
+- World Wide Joker (Common) - Gains +$1 sell value for every card sold.
+- Sleepy Joker (Uncommon) - +$2 for every hand played that does not beat the current blind.
+
+![Row5](https://github.com/user-attachments/assets/5f64138c-c640-40c2-a87f-b10d42e22e1d)
+
+- JokERROR (Uncommon) - All scored cards in first hand of round are converted to a single, random suit.
+- Ketchup and Mustard (Common) - All Hearts and Diamonds score x1.5 mult. -0.05x mult per hand.
+- I.O.U (Common) - When sold, 3 in 4 chance to duplicate Joker to the right. Otherwise, destroy Joker to the right.
+- Do Not Disturb! - Earn $3 for every scored debuffed card.
+- Joker Gel (Uncommon) - Gains x0.1 Mult for every hand played that does not beat the current blind. If blind is beaten in a single hand, reset.
+
+  ![Row6](https://github.com/user-attachments/assets/fa2179f8-5cd7-4270-aeb9-621622b5917a)
+
+- Old Western (Common) - Wild Cards give +4 Mult and +25 Chips.
+- AI-Generated Joner (Common) - Copies the effect of a random Joker in your possession. 1 in 5 chance to destroy itself at the end of round.
+- Fish 'n Chips (Common) - The fifth scored card in played hand gains +30 pernmanent chips. -5 Chips per hand.
+- Neapolitan (Uncommon) - x3 Mult if hand contains exactly 3 suits.
+- Bad Photocopy (Common) - 1 in 4 chance to copy the effect of the Joker to the right.
+

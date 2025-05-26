@@ -3,8 +3,8 @@
 
 A Balatro mod containing 30 hand crafted, vanilla-adjacent jokers with all sorts of new strategies and synergies to spice up your runs!!
 
-Art and Joker concepts by EmeraldPlusIrony.
-Code by TheSnaz.
+Mod, Art and Joker concepts by EmeraldPlusIrony.
+Code and Advice by TheSnaz. (Ty! <3)
 
 Mod Discord (I'd love to hear feedback!! :>) - https://discord.gg/QHjXT2EfFV
 

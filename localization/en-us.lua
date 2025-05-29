@@ -5,16 +5,16 @@ return {
             j_emerald_light_house = {
                 name = "Lighthouse",
                 text = {
-                  "Gain {X:mult,C:white}X#2#{}",
+                  "Gain {X:mult,C:white}#2#X{}",
                   "if played hand is {C:attention}#3#{}.",
 				  "Hand type changes every round",
-                  "{C:inactive}(Currently {X:mult,C:white}X#1#{}{C:inactive})"
+                  "{C:inactive}(Currently {X:mult,C:white}X#1#{})"
                 },
             },
             j_emerald_ol_reliable = {
                 name = "Ol' Reliable",
                 text = {
-                  "{C:attention}Lucky Cards{} give {C:mult}+#1#{} Mult",
+                  "{C:attention}Lucky Cards{} give {C:mult}+#1# Mult{}",
                   "and earn{C:money} $#2# {}when scored",
                 },
             },
@@ -25,7 +25,7 @@ return {
                 },
             },
             j_emerald_spider_web = {
-                name = "Spider's Web",
+                name = "Spider Web",
                 text = {
                   "Every scored {C:attention}8{} permanently gain",
 				  "{C:mult}+#1#{} Mult and {C:chips}+#2#{} Chips when scored"
@@ -55,10 +55,10 @@ return {
                 },
             },
             j_emerald_expose = {
-                name = "Exposé",
+                name = "ExposÃ©",
                 text = {
-                  "Destroys leftmost Joker at beginning of round.",
-				  "If successful, earn {C:attention}double{} its sell value"
+                  "Destroys leftmost joker at beginning of round.",
+				  "If successful, earn {C:inactive}double{} its sell value"
                 },
             },
             j_emerald_candle_light = {
@@ -72,17 +72,15 @@ return {
             j_emerald_butterfly_effect = {
                 name = "Butterfly Effect",
                 text = {
-                  "Earn {C:money}$#1#{} at end of round",
-				  "and increase payout by {C:money}$#2#{}",
-                  "after every boss blind defeated.",
+                  "Earn {C:money}$#1#{} and increase payout by {C:money}$#2#{}",
+                  "at the end of the round.",
                   "When exiting shop, destroys itself if you have more than {C:money}$#3#{}."
                 },
             },
             j_emerald_sleepy_joker = {
                 name = "Sleepy Joker",
                 text = {
-                  "Earn {C:attention}$#1#{} after playing a hand if",
-                  "current score is less than {C:card}blind requirement{}"
+                  "Earn {C:attention}$#1#{} after playing a hand if current score is less than {C:card}blind requirement{}"
                 },
             },
             j_emerald_ketchup_mustard = {
@@ -93,32 +91,28 @@ return {
               },
             },
             j_emerald_schrodinger_joker = {
-              name = "Schrödinger's Joker",
+              name = "Schrodinger's Joker",
               text = {
-                "This joker has a {C:green}#3# in #2#{} chance",
-				"of being destroyed when obtained",
-                "{X:mult,C:white}X#1#{} Mult",
+                "This joker has a {C:green}#3# in #2#{} chance of being destroyed when obtained.",
+                "X:mult,C:white}X#1#{} Mult",
               },
             },
             j_emerald_wild_west = {
               name = "Old Western",
               text = {
-                "{C:attention}Wild Cards{} give {C:chips}+#2#{} Chips and",
-				"{C:mult}+#1#{} Mult when scored.",
+                "{C:attention}Wild Cards{} give {C:chips}+#2#{} Chips and {C:mult}+#1#{} Mult when scored.",
               },
             },
             j_emerald_bad_photocopy = {
               name = "Bad Photocopy",
               text = {
-                "This joker has a {C:green}#1# in #2#{} chance of",
-				"copying the effect of the Joker to the right.",
+                "This joker has a {C:green}#1# in #2#{} chance of copying the joker to the right.",
               },
             },
             j_emerald_neapolitan = {
               name = "Neapolitan",
               text = {
-                "Gives {X:mult,C:white}X#1#{} if scoring hand contains",
-				"exactly {C:attention}3 suits{}.",
+                "Gives {X:mult,C:white}X#1#{} if scoring hand contains exactly {C:attention}3 suits{}.",
               },
             },
             j_emerald_pointillism = {
@@ -132,8 +126,8 @@ return {
             j_emerald_iou = {
               name = "I.O.U.",
               text = {
-                "When sold, {C:green}#1# in #2#{} chance to duplicate joker to left.",
-                "Otherwise destroy joker to the righ.",
+                "When sold, {C:green}#1# in #2#{} chance to duplicate joker to left",
+                "Otherwise destroy joker to the left.",
               },
             },
             j_emerald_room_keys = {
@@ -168,50 +162,48 @@ return {
               },
             },
             j_emerald_joner = {
-              name = "Ai-Generated Joner",
+              name = "Joner",
               text = {
                 "After every played hand, copies a random compatible Joker",
                 "Has a {C:green}#1# in #2#{} chance to {C:red}self-destruct{} at end of round",
               },
             },
             j_emerald_jokERROR = {
-              name = "Jok{C:red}ERROR{}",
+              name = "jokERROR",
               text = {
                 "In {C:attention}first hand{} of round, change the suit of",
-                "all {C:attention}scoring cards{} to a randomly chosen suit.",
+                "all {C:attention}scoring cards{} to a randomly chosen suit",
               },
             },
             j_emerald_fish_chips = {
               name = "Fish 'n Chips",
               text = {
                 "The {C:attention}fifth scoring card{} in played hand",
-                "permanently gains {C:chips}+#1#{} Chips when scored.",
-				"{C:chips}-5{} Chips per hand."
+                "gains +#1# when scored"
               },
             },
             j_emerald_peeloff_joker = {
               name = "Peel-Off Joker",
               text = {
-                "This Joker gains {C:money}$#1#{} of {C:card}sell value{} ",
-                "per scoring {C:attention}Enhanced card{} played",
-                "and removes card {C:attention}Enhancement",
+                "This Joker gains {C:money}#2#{} {C:card}sell value{} ",
+                "per scoring {C:attention}Enhanced card{} played,",
+                "removes card {C:attention}Enhancement",
               },
             },
             j_emerald_tungsten = {
               name = "Tungsten",
               text = {
                 "This Joker gains {X:mult,C:white}X#2#{} Mult",
-                "if a blind is defeated in {C:attention}one hand{}.",
-                "Otherwise, reset.",
+                "if a blind is defeated in {C:attention}one hand{},",
+                "otherwise, reset",
                 "{C:inactive}(Currently {X:mult,C:white}X#1#{}{C:inactive})"
               },
             },
             j_emerald_guardsman = {
               name = "Guardsman",
               text = {
-                "All scored cards are {C:attention}retriggered{}",
-                "for every {C:attention}unscored card{} to the left",
-				"of the {C:attention}scored hand{}"
+                "All played cards are {C:attention}retriggered{}",
+                "for every {C:attention}unscored card{} in {C:attention}played hand{}"
               },
             },
             j_emerald_dnd = {
@@ -231,13 +223,13 @@ return {
             },
         },
         Mod = {
-            Up_the_Ante = {
-                name = "Up the Ante!",
+            Emerald_Jokers = {
+                name = "Emerald Jokers",
                 text = {
-                    "Adds {C:red}30{} Jokers, art and ideas by {C:green}Emerald{}! {C:green}(Me, teehee)){}",
+                    "Adds {C:red}30{} Jokers, art by {C:green}Emerald{}!",
                     " ",
-                    "Others: ",
-                    "Programming and minor rebalancing by {C:purple}TheSnaz{}",
+                    " ",
+                    "Programming by {C:purple}TheSnaz{}",
                 }
             }
         },

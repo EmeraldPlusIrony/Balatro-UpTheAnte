@@ -34,7 +34,7 @@ SMODS.Joker {
       end
       if context.joker_main then
         return {
-          chips = card.ability.extra.chips * #G.jokers.cards
+          chips = card.ability.extra.chips
         }
       end
     end

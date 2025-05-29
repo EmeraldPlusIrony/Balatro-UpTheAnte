@@ -55,7 +55,7 @@ return {
                 },
             },
             j_emerald_expose = {
-                name = "ExposÃ©",
+                name = "Exposé",
                 text = {
                   "Destroys leftmost joker at beginning of round.",
 				  "If successful, earn {C:inactive}double{} its sell value"

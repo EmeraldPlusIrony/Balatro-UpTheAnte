@@ -14,7 +14,7 @@ return {
             j_emerald_ol_reliable = {
                 name = "Ol' Reliable",
                 text = {
-                  "{C:attention}Lucky Cards{} give {C:mult}+#1#{} Mult",
+                  "Played {C:attention}Lucky Cards{} give {C:mult}+#1#{} Mult",
                   "and earn{C:money} $#2# {}when scored",
                 },
             },
@@ -98,7 +98,8 @@ return {
                 "Played cards with {C:hearts}Heart",
                 "and {C:diamonds}Diamond{} suit give",
                 "{X:mult,C:white}X#1#{} Mult when scored.",
-                "Lose {X:mult,C:white}X#2#{} Mult for every hand played",
+                "Lose {X:mult,C:white}X#2#{} Mult",
+                "for every hand played",
               },
             },
             j_emerald_schrodinger_joker = {
@@ -160,19 +161,20 @@ return {
             j_emerald_recursion = {
               name = "Recursion",
               text = {
-                "Retrigger all scored cards if",
-                "played hand contains exactly {C:attention}one rank{}"
+                "Retrigger all scored cards",
+                "if played hand contains",
+                "exactly {C:attention}one{} rank"
               },
             },
             j_emerald_isotope = {
               name = "Isotope",
               text = {
-                "When {C:attention}Blind{} is selected, create a",
-                "random {C:attention}playing card{}. May", 
-                "have an {C:enhanced}enhancement{},",
-                "{C:dark_edition}edition{} and/or {C:attention}seal.",
-                "This Joker has a {C:green}#2# in #1#{} chance",
-                "of being destroyed after"
+                "When {C:attention}Blind{} is selected, create",
+                "a random {C:attention}playing card{}. May", 
+                "have an {C:enhanced}enhancement{}, {C:dark_edition}edition{}",
+                "and/or {C:attention}seal{}. This Joker has",
+                "a {C:green}#2# in #1#{} chance of",
+                "being destroyed after"
               },
             },
             j_emerald_wwj = {
@@ -186,7 +188,7 @@ return {
               name = "AI-Generated Joner",
               text = {
                 "After every played hand, copies",
-                "a random compatible Joker.",
+                "a random compatible {C:attention}Joker{}.",
                 "Has a {C:green}#1# in #2#{} chance to",
                 "{C:red}self-destruct{} at end of round",
               },
@@ -228,8 +230,8 @@ return {
               name = "Guardsman",
               text = {
                 "All scored cards are {C:attention}retriggered{}",
-                "for every {C:attention}unscored card{} to the left",
-                "of the {C:attention}scored hand{}"
+                "for every {C:attention}unscored card{} to the",
+                "left of the {C:attention}scored card{}"
               },
             },
             j_emerald_dnd = {
@@ -242,8 +244,9 @@ return {
             j_emerald_joker_gel = {
               name = "Joker Gel",
               text = {
-                "Gains {X:mult,C:white}X#2#{} Mult when hand is played",
-                "If {C:attention}Blind{} is defeated in one hand, reset",
+                "This Joker gains {X:mult,C:white}X#2#{} Mult",
+                "for each played hand. If {C:attention}first hand",
+                "of round defeats {C:attention}Blind{}, reset",
                 "{C:inactive}(Currently {X:mult,C:white}X#1#{C:inactive} Mult)"
               },
             },
